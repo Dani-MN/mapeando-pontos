@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeando Pontos em Manaus</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mapa Interativo de Manaus</h1>
+    </header>
+
+    <main>
+        <form id="addressForm">
+            <input type="text" id="addressInput" placeholder="Digite o endereço">
+            <button onclick="addAdress">Adicionar Ponto</button>
+        </form>
+        <div id="map"></div>
+    </main>
+
+    <footer> <p>&copy; 2024 Daniele Medeiros</p> </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
